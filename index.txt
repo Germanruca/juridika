@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos esenciales -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurídika | Marketing jurídico para abogados y bufetes</title>
+  <meta name="description"
+    content="Agencia especializada en marketing jurídico para despachos y abogados. SEO, publicidad, branding legal y estrategias digitales que convierten.">
+  <meta name="keywords"
+    content="marketing jurídico, marketing para abogados, agencia marketing abogados, SEO legal, publicidad legal, diseño web legal">
+  <meta name="author" content="Jurídika">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.juridika.agency/">
+
+  <!-- Open Graph (para Facebook, LinkedIn) -->
+  <meta property="og:title" content="Jurídika | Marketing jurídico para abogados y bufetes">
+  <meta property="og:description"
+    content="Especialistas en marketing digital para despachos. Creamos estrategias que entienden el sector legal y generan resultados reales.">
+  <meta property="og:url" content="https://www.juridika.agency/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.juridika.agency/assets/og-image.jpg">
+  <!-- Ajusta la URL de la imagen -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Fuente personalizada (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="/estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/javascript.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+
+      <!-- Logo (izquierda) -->
+      <div class="header-logo">
+        <a href="/">
+          <img src="/img/juridika-marketing-juridico-logo.webp" alt="Jurídika - Agencia de Marketing Jurídico">
+        </a>
+      </div>
+
+      <!-- Menú principal (centro) -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/servicios-marketing-juridico-abogados.html">Servicios</a></li>
+          <li><a href="/marketing-juridico.html">Marketing jurídico</a></li>
+          <li><a href="/casos-de-exito">Casos de éxito</a></li>
+          <li><a href="/nosotros-agencia-marketing-juridico.html">Nosotros</a></li>
+          <li><a href="/blog-agencia-marketing-juridico.html">Legaltech</a></li>
+          <li><a href="/contacto-agencia-marketing-juridico.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Redes sociales (derecha) -->
+      <div class="header-social">
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <img src="/img/icono-linkedin.webp" alt="LinkedIn">
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="YouTube">
+          <img src="/img/icono-youtube.webp" alt="YouTube">
+        </a>
+      </div>
+    </div>
+  </header>
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1><span class="animated-gradient">Marketing jurídico para abogados</span></h1>
+      <h2>Impulsa tu despacho con branding legal, SEO especializado, diseño web estratégico y campañas digitales que
+        generan clientes reales</h2>
+    </div>
+    <div class="hero-action" id="hero-action">
+      <a href="#porque-juridika">
+        <div class="boton-cta" id="boton-cta">Descubre más sobre Jurídika</div>
+      </a>
+    </div>
+    <div class="flechas-container">
+      <a href="#porque-juridika">
+        <div class="chevron chevron-verde"></div>
+        <div class="chevron chevron-azul"></div>
+      </a>
+    </div>
+  </section>
+  <section class="porque-juridika" id="porque-juridika">
+    <h2><span class="animated-gradient">Por qué Jurídika</span></h2>
+    <p class="texto-decorativo">Razones de peso para quedarte con nosotros</p>
+    <div class="porque-juridika-cards">
+      <article class="porque-juridika-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 24 24" fill="none"
+          stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-messages-square-icon lucide-messages-square">
+          <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" />
+          <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
+        </svg>
+        <h3>Hablamos tu idioma</h3>
+        <p>Somos abogados formados en marketing y expertos en legaltech con experiencia en estrategias reales y
+          orientadas a resultados.</p>
+      </article>
+      <article class="porque-juridika-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 24 24" fill="none"
+          stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-file-chart-pie-icon lucide-file-chart-pie">
+          <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+          <path d="M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3.5" />
+          <path d="M4.017 11.512a6 6 0 1 0 8.466 8.475" />
+          <path d="M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z" />
+        </svg>
+        <h3>Estrategia con datos</h3>
+        <p>Desarrollamos estrategias basadas en datos, para ganar reputación en el largo plazo y que entienden el
+          mercado legal.</p>
+      </article>
+      <article class="porque-juridika-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 24 24" fill="none"
+          stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-user-pen-icon lucide-user-pen">
+          <path d="M11.5 15H7a4 4 0 0 0-4 4v2" />
+          <path
+            d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+          <circle cx="10" cy="7" r="4" />
+        </svg>
+        <h3>Sin plantillas</h3>
+        <p>No usamos plantillas: cada estrategia es 100 % personalizada según el despacho, su especialidad y sus
+          objetivos reales.</p>
+      </article>
+    </div>
+  </section>
+  <section class="servicios" id="servicios">
+    <h2><span class="animated-gradient">Servicios destacados</span></h2>
+    <p class="texto-decorativo">Descubre nuestros servicios de marketing jurídico</p>
+    <div class="servicios-contenedor" id="servicios-contenedor">
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-award-icon lucide-award">
+            <path
+              d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+            <circle cx="12" cy="8" r="6" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Estrategia y posicionamiento legal</h3>
+          <p>Auditoría de marca y posicionamiento legal para despachos: naming, diferenciación, reputación digital y
+            estrategia de branding especializada en el sector jurídico.</p>
+        </div>
+      </article>
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-panels-top-left-icon lucide-panels-top-left">
+            <rect width="18" height="18" x="3" y="3" rx="2" />
+            <path d="M3 9h18" />
+            <path d="M9 21V9" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Desarrollo de sitios web jurídicos</h3>
+          <p>Diseño web legal optimizado para SEO y conversión, con páginas específicas, cumplimiento normativo
+            (cookies, LOPD, etc.), y
+            enfoque en captar leads jurídicos de calidad.</p>
+        </div>
+      </article>
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chrome-icon lucide-chrome">
+            <circle cx="12" cy="12" r="10" />
+            <circle cx="12" cy="12" r="4" />
+            <line x1="21.17" x2="12" y1="8" y2="8" />
+            <line x1="3.95" x2="8.54" y1="6.06" y2="14" />
+            <line x1="10.88" x2="15.46" y1="21.94" y2="14" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Posicionamiento SEO jurídico avanzado</h3>
+          <p>SEO jurídico completo: keyword research por ciudad y especialidad, optimización técnica (core web vitals,
+            schema, mobile-first) y optimización técnica para despachos.</p>
+        </div>
+      </article>
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-file-search-icon lucide-file-search">
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" />
+            <path d="m9 18-1.5-1.5" />
+            <circle cx="5" cy="14" r="3" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Ads & publicidad en buscadores</h3>
+          <p>Campañas SEM jurídicas por caso y ciudad, con segmentación por intención, ej: “abogado laboralista en
+            Sevilla” y landing pages
+            adaptadas legalmente para captar leads.</p>
+        </div>
+      </article>
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-pencil-line-icon lucide-pencil-line">
+            <path d="M12 20h9" />
+            <path
+              d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z" />
+            <path d="m15 5 3 3" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Copywriting jurídico especializado</h3>
+          <p>Contenido legal para captar clientes: artículos SEO, guías especializadas, ebooks descargables, lead
+            magnets y casos de
+            éxito con storytelling jurídico.</p>
+        </div>
+      </article>
+      <article class="servicio-card">
+        <div class="ventana-up"></div>
+        <div class="ventana-down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-mail-check-icon lucide-mail-check">
+            <path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            <path d="m16 19 2 2 4-4" />
+          </svg>
+        </div>
+        <div class="contenido-servicio">
+          <h3>Email marketing legal & automatizaciones</h3>
+          <p>Automatización legal: funnels de captación, newsletters informativas, campañas legales y seguimiento de
+            leads con CRM adaptado a despachos.</p>
+        </div>
+      </article>
+    </div>
+    <div class="boton-cta" id="boton-cta">Descubre más sobre Jurídika</div>
+  </section>
+  <section class="casos-de-exito" id="casos-de-exito">
+    <h2><span class="animated-gradient">Casos reales y resultados</span></h2>
+    <p class="texto-decorativo">Atrévete a dar un salto con Jurídika</p>
+    <div class="diagonal" id="diagonal">
+    </div>
+    <div class="imagen-casos-de-exito">
+      <img src="/img/despacho-abogados-martinez-caballero.webp" alt="Despacho de abogados Martínez Caballero"
+        class="zoom-on-scroll">
+    </div>
+    <h4>Martínez & Caballero Abogados</h4>
+    <p class="texto-casos-de-exito">Gracias a nuestra estrategia de marketing jurídico integral, el despacho Martínez &
+      Caballero Abogados ha
+      experimentado un crecimiento sostenido en su presencia digital. Hemos consolidado su identidad corporativa y
+      visual, impulsando el posicionamiento orgánico en buscadores, optimizando su página web y fortaleciendo su
+      presencia en redes sociales. Además, hemos liderado la digitalización del despacho mediante la implementación de
+      un CRM personalizado y una estrategia de contenidos enfocada en captar clientes potenciales y reforzar su
+      autoridad como abogados en Barcelona.</p>
+    <div class="charts-container" id="estadisticas-final">
+      <!-- Gráfico 1 -->
+      <div class="chart-box">
+        <div class="chart-container">
+          <canvas id="chart1" width="200" height="200"></canvas>
+          <div class="chart-percentage">75%</div>
+        </div>
+        <p class="chart-label">Aumento de reseñas positivas en Google</p>
+      </div>
+
+      <!-- Gráfico 2 -->
+      <div class="chart-box">
+        <div class="chart-container">
+          <canvas id="chart2" width="200" height="200"></canvas>
+          <div class="chart-percentage">55%</div>
+        </div>
+        <p class="chart-label">Aumento de tráfico web</p>
+      </div>
+
+      <!-- Gráfico 3 -->
+      <div class="chart-box">
+        <div class="chart-container">
+          <canvas id="chart3" width="200" height="200"></canvas>
+          <div class="chart-percentage">33%</div>
+        </div>
+        <p class="chart-label">Aumento del engagement en redes</p>
+      </div>
+
+      <!-- Gráfico 4 -->
+      <div class="chart-box">
+        <div class="chart-container">
+          <canvas id="chart4" width="200" height="200"></canvas>
+          <div class="chart-percentage">25%</div>
+        </div>
+        <p class="chart-label">Aumento de conversiones</p>
+      </div>
+    </div>
+  </section>
+  <section class="cta-medio" id="cta-medio">
+    <div class="frase-cta" id="frase-cta">
+      <p class="frase-destacada">
+        ¿Listo <span class="resaltado1">para que tu despacho crezca</span> <span class="resaltado2"> con
+          estrategia</span>?
+      </p>
+    </div>
+    <form class="contenedor-formulario" id="contenedor-formulario">
+      <label for="email" class="sr-only">Tu correo electrónico</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+      <button type="submit">Contactar</button>
+    </form>
+  </section>
+  <section class="sobre-nosotros" id="sobre-nosotros">
+    <h2><span class="animated-gradient">Especialistas en marketing, <br>expertos en derecho</span></h2>
+    <p class="texto-decorativo">La combinación perfecta de talento y estrategia</p>
+    <div class="sobre-nosotros-container" id="sobre-nosotros-container">
+      <div class="equipo-control">
+        <h2>Conoce a nuestro equipo de expertos</h2>
+        <p class="texto-decorativo">Nacimos porque las agencias tradicionales no entendían los retos del sector legal.
+          Somos abogados y marketers. Estratégicos, éticos y orientados a resultados.</p>
+        <div class="flechas">
+          <button id="prev">&#8592;</button>
+          <button id="next">&#8594;</button>
+        </div>
+      </div>
+
+      <div class="equipo-galeria" id="galeria">
+        <!-- Cartas de equipo -->
+        <!-- Las cartas se ordenan dinámicamente con JS -->
+      </div>
+
+      <!-- Vista de perfil expandida -->
+      <div class="perfil-expandido hidden" id="perfilExpandido">
+        <div class="foto-perfil" id="fotoPerfil"></div>
+        <div class="bio">
+          <h3 id="nombrePerfil"></h3>
+          <p id="cargoPerfil"></p>
+          <p id="bioTexto"></p>
+          <button id="volver">Volver al equipo</button>
+        </div>
+      </div>
+    </div>
+    <div class="boton-cta">Ver más sobre nosotros</div>
+  </section>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="newsletter-column">
+  <h3>Suscríbete a nuestra Newsletter</h3>
+  <p>Recibe actualizaciones y noticias sobre el sector legaltech</p>
+  <form id="newsletter-form">
+    <!-- Campo de email -->
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+    <!-- Botón de envío -->
+    <button type="submit">Suscribirme</button>
+  </form>
+</div>
+      <div class="politicas">
+        <p><a href="">Aviso legal</a></p>
+        <p><a href="">Política de cookies</a></p>
+        <p><a href="">Política de privacidad</a></p>
+        <p><a href="">Política de seguridad de la información</a></p>
+        <p><a href="">Política de privacidad en medios digitales</a></p>
+      </div>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="/servicios">Servicios</a></li>
+          <li><a href="/casos-de-exito">Marketing jurídico</a></li>
+          <li><a href="/casos-de-exito">Casos de éxito</a></li>
+          <li><a href="/nosotros">Nosotros</a></li>
+          <li><a href="/blog">Tendencias Legaltech</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="redes-sociales">
+        <div class="footer-logo">
+          <a href="/">
+            <img src="img/juridika-marketing-juridico-logo-footer.webp" alt="Jurídika - Agencia de marketing jurídico">
+          </a>
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <img src="/img/icono-linkedin.webp" alt="LinkedIn">
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="YouTube">
+            <img src="/img/icono-youtube.webp" alt="YouTube">
+          </a>
+        </div>
+        <p>Jurídika © 2025 – Marketing estratégico para el sector legal</p>
+        <p>Todos los derechos reservados</p>
+        <p><a href="mailto:info@juridika.com">info@juridika.com</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
