@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos esenciales -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurídika | Marketing jurídico para abogados y bufetes</title>
+  <meta name="description"
+    content="Agencia especializada en marketing jurídico para despachos y abogados. SEO, publicidad, branding legal y estrategias digitales que convierten.">
+  <meta name="keywords"
+    content="marketing jurídico, marketing para abogados, agencia marketing abogados, SEO legal, publicidad legal, diseño web legal">
+  <meta name="author" content="Jurídika">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.juridika.agency/">
+
+  <!-- Open Graph (para Facebook, LinkedIn) -->
+  <meta property="og:title" content="Jurídika | Marketing jurídico para abogados y bufetes">
+  <meta property="og:description"
+    content="Especialistas en marketing digital para despachos. Creamos estrategias que entienden el sector legal y generan resultados reales.">
+  <meta property="og:url" content="https://www.juridika.agency/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.juridika.agency/assets/og-image.jpg">
+  <!-- Ajusta la URL de la imagen -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Fuente personalizada (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+<!-- CABECERA -->
+  <header>
+    <div class="header-container">
+
+      <!-- Logo (izquierda) -->
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="img/juridika-marketing-juridico-logo.webp" alt="Jurídika - Agencia de Marketing Jurídico">
+        </a>
+      </div>
+
+      <!-- Menú principal (centro) -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios-marketing-juridico-abogados.html">Servicios</a></li>
+          <li><a href="marketing-juridico.html">Marketing jurídico</a></li>
+          <li><a href="casos-de-exito.html">Casos de éxito</a></li>
+          <li><a href="nosotros-agencia-marketing-juridico.html">Nosotros</a></li>
+          <li><a href="blog-agencia-marketing-juridico.html">Legaltech</a></li>
+          <li><a href="contacto-agencia-marketing-juridico.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Redes sociales (derecha) -->
+      <div class="header-social">
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <img src="img/icono-linkedin.webp" alt="LinkedIn">
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="YouTube">
+          <img src="img/icono-youtube.webp" alt="YouTube">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACTO -->
+   <div class="contacto-container">
+      <div class="contacto-animacion">
+        <div>
+          <h1 class="animated-gradient">Contacta con el equipo de Jurídika</h1>
+          <p>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo.</p>
+          <p>Correo de contacto: <a href="mailto:info@juridika.com" class="link-email">info@juridika.com</a></p>
+          <p>Llámanos: <a href="tel:+34613922611" class="link-phone">+34 613 922 611</a></p>
+          <p>Escríbenos por<a href="https://wa.me/34613922611?text=Hola%2C%20quisiera%20ponerme%20en%20contacto%20con%20el%20equipo%20de%20Jur%C3%ADdika" 
+          target="_blank" class="link-whatsapp"> WhatsApp</a></p>
+        </div>
+        <div class="bubbles">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+        </div>
+      </div>
+      <div class="form-container">
+          <form id="contactForm">
+              <div class="form-group">
+                  <label for="nombre">Nombre *</label>
+                  <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+              </div>
+
+              <div class="form-group">
+                  <label for="telefono">Número de contacto *</label>
+                  <input type="tel" id="telefono" name="telefono" required placeholder="Tu número de teléfono">
+              </div>
+
+              <div class="form-group">
+                  <label for="email">Correo electrónico *</label>
+                  <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+              </div>
+
+              <div class="form-group">
+                  <label for="mensaje">Mensaje *</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta..." required></textarea>
+              </div>
+
+              <div class="checkbox-group">
+                  <div class="checkbox-wrapper">
+                      <input type="checkbox" id="privacy" name="privacy" required>
+                  </div>
+                  <div class="checkbox-text">
+                      He leído y acepto la <a href="#politica-privacidad" target="_blank">Política de Privacidad</a>, y consiento el tratamiento de mis datos para la gestión de mi consulta.
+                  </div>
+              </div>
+
+              <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                  Enviar Consulta
+              </button>
+          </form>
+
+          <div class="privacy-info">
+              <strong>Responsable:</strong> Jurídika Agency. <strong>Finalidad:</strong> responder su consulta. <strong>Derechos:</strong> puede acceder, rectificar y suprimir los datos, así como ejercer otros derechos como se explica en la información adicional. Puede consultar la información completa en nuestra Política de Privacidad.
+          </div>
+      </div>
+    </div>
+
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="newsletter-column">
+        <h3>Suscríbete a nuestra Newsletter</h3>
+        <p>Recibe actualizaciones y noticias sobre el sector legaltech</p>
+        <form id="newsletter-form">
+          <!-- Campo de email -->
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+          <!-- Botón de envío -->
+          <button type="submit">Suscribirme</button>
+        </form>
+      </div>
+      <div class="politicas">
+        <p><a href="">Aviso legal</a></p>
+        <p><a href="">Política de cookies</a></p>
+        <p><a href="">Política de privacidad</a></p>
+        <p><a href="">Política de seguridad de la información</a></p>
+        <p><a href="">Política de privacidad en medios digitales</a></p>
+      </div>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="servicios-marketing-juridico-abogados.html">Servicios</a></li>
+          <li><a href="casos-de-exito.html">Marketing jurídico</a></li>
+          <li><a href="casos-de-exito.html">Casos de éxito</a></li>
+          <li><a href="nosotros-agencia-marketing-juridico.html">Nosotros</a></li>
+          <li><a href="blog-agencia-marketing-juridico.html">Tendencias Legaltech</a></li>
+          <li><a href="contacto-agencia-marketing-juridico.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="redes-sociales">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="img/juridika-marketing-juridico-logo-footer.webp" alt="Jurídika - Agencia de marketing jurídico">
+          </a>
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <img src="img/icono-linkedin.webp" alt="LinkedIn">
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="YouTube">
+            <img src="img/icono-youtube.webp" alt="YouTube">
+          </a>
+        </div>
+        <p>Jurídika © 2025 – Marketing estratégico para el sector legal</p>
+        <p>Todos los derechos reservados</p>
+        <p><a href="mailto:info@juridika.com">info@juridika.com</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
